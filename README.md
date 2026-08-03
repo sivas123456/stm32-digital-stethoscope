@@ -12,6 +12,9 @@ The STM32 Digital Stethoscope is a complete end-to-end biomedical data acquisiti
 - **Real-Time Visualization**: Python-based scrolling plots for instant waveform feedback.
 - **Digital Signal Processing**: Moving average filtering for noise reduction and signal smoothing.
 
+## 📸 Hardware Setup
+![Hardware Setup](Images/hardware_setup.jpg)
+
 ## 🏗️ System Architecture
 ### Hardware Components
 - **Microcontroller**: STM32F407VG Discovery Board / Custom PCB
@@ -35,6 +38,8 @@ stm32-digital-stethoscope/
 │   │   └── Src/           # Source files (main.c)
 │   ├── Drivers/           # HAL driver files
 │   └── Startup/           # Startup code
+│
+├── Images/                # Project screenshots and diagrams
 │
 ├── Python/
 │   ├── realtime_plot.py   # Simulates real-time waveform plotting
